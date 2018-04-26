@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+#logo {
+	position: absolute;
+	top: -5px;
+}
+
+.titletext {
+	text-align: center;
+}
+
+#s-logo {
+	position: absolute;
+	top: 10px;
+	left: 13%;
+}
+
+/*_________________________________________________________________________________________________*/
+
+#topnav {
+	position: relative;
+	z-index: 10;
+	top: 65px;
+	
+}
+
+.topul {
+	margin: 10px;
+    padding: 10px;
+    list-style: none;
+	background-color: green;
+	
+}
+
+.topli {
+	
+    text-align: center;
+    padding: 10px;
+	
+}
+
+#topnav > ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+	
+}
+
+#topnav > ul > li > a {
+	text-decoration: none;
+}
+
+#topnav > ul > li  {
+    padding: 0px 10px;
+    color: gray;
+    flex:1 1 auto;
+}
+
+#topnav > ul > li> a {
+    height: 30px;
+}
+
+/*_________________________________________________________________________________________________*/
+
+#sidenav {
+	position: relative;
+	z-index: 10;
+	top: 80px;
+	
+}
