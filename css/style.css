@@ -69,3 +69,14 @@
 	top: 80px;
 	
 }
+
+#sidenav > ul {
+	list-style: none;
+
+}
+
+#sidenav > ul > li > a{
+	list-style: none;
+
+}
+
