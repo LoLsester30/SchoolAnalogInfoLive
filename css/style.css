@@ -72,6 +72,11 @@
 
 #sidenav > ul {
 	list-style: none;
+	
+}
+
+#sidenav > ul > li {
+	color: chartreuse;
 
 }
 
